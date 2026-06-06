@@ -13,7 +13,8 @@ function Login() {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      // Replace the old localhost line with your real Render URL:
+      const response = await axios.post(' https://vayu-guard-backend.onrender.com/api/auth/login', {
         email: email,
         password: password
       });

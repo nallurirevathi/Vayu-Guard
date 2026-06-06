@@ -31,7 +31,8 @@ function Dashboard() {
   const runNeuralEngine = async () => {
     setIsPredicting(true);
     try {
-      const response = await axios.post('http://127.0.0.1:8000/forecast', {
+      // Replace the old 127.0.0.1 line with your real Render ML URL:
+      const response = await axios.post('https://vayu-guard.onrender.com/forecast', {
         city: "Bengaluru",
         horizon_hours: 24,
         temperature_max: 32.0,
