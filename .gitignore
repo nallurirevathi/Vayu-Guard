@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment Variables (Keep Passwords Secret!)
+.env
+
+# Python Cache & Environments
+__pycache__/
+venv/
+.venv/
